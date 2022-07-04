@@ -2,8 +2,14 @@ package labcodeinspection;
 
 import java.util.Scanner;
 
-public class EmailApp {
-
+final class EmailApp {
+	private EmailApp() {
+		//something
+	}
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
@@ -23,4 +29,6 @@ public class EmailApp {
 		email.generateEmail();
 		email.showInfo();
 	}
+
+
 }
